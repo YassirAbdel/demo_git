@@ -5,7 +5,7 @@ require('controler/backend.php');
 
 try
 {
-    // backend v1
+    // backend v2
     if (isset($_GET['action'])) {
         if ($_GET['action'] == 'listPosts') {
             listPosts();
